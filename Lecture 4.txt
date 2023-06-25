@@ -1,0 +1,64 @@
+In 4th lecture I've learend about some HTML tags.
+This html tags are--
+1. body
+2. heading
+3. paragraph
+4. blockquote
+5. q
+6. abbreviation
+7. Lists
+8. Description List
+9. Description of Description
+10. break
+11. bold
+and many more..
+
+here is the code I practiced after recorded lecture..
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- "blockquote" create some extra spaces in both sides -->
+  <blockquote><h1>Welcome to MyHouse</h1></blockquote> 
+
+  <!-- "q" is for creating quotation -->
+  <q>Welcome to MyHouse</q> 
+
+  <p>My name is <b><u>Biprojit Giri</u></b>, I'm from Tripura</p>
+  
+  <!-- "abbr" tag is a abbreviation tag which is used to show the description when you mouse over the element -->
+  <p><abbr title="Mahendra Singh Dhoni">MSD</abbr> is a GOAT of cricket</p>
+
+  <!-- for creating horizontal line we use <hr /> tag -->
+  <hr />
+
+  <H4>LISTS</H4>
+  <ul>
+    <li>Browny</li>
+    <li>Lassi</li>
+    <li>Coffee</li>
+  </ul>
+  <ol>
+    <li>Browny</li>
+    <li>Lassi</li>
+    <li>Coffee</li>
+  </ol>
+  <ul>
+    <dt>Browny</dt>  <!--dt=description title--->
+    <dd>it's made by using chocolate</dd><br> <!--dd=description of description--->
+    <dt>Lassi</dt>
+    <dd>it's made by using milk</dd><br>
+  </ul>
+
+  <p>MSN (meaning Microsoft Network) is a web portal and related collection of Internet services and apps for Windows and mobile devices, provided by Microsoft and launched on August 24, 1995, alongside the release of Windows 95.[2]</p>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, illum accusantium. Assumenda aliquam magnam amet magni. Explicabo vel ipsa amet libero alias molestiae qui asperiores exercitationem mollitia minima, at doloribus nihil hic quia quos a minus deserunt cum, magnam suscipit?</p>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ad, ullam ratione aspernatur, neque ipsum asperiores magnam optio vitae, repellendus corrupti autem necessitatibus. Minima aspernatur ab iusto saepe, eos exercitationem ipsa. Ducimus ratione, soluta, in laudantium assumenda vitae architecto illum distinctio sit maiores quisquam vel eos, corporis asperiores sunt illo.</p>
+</body>
+</html>
