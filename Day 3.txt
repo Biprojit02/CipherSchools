@@ -1,1 +1,0 @@
-In my day three lecture, I learend what is Frontend, backend and database and I also learned how all are connected to each other.
