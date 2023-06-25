@@ -1,3 +1,0 @@
-Hello Everyone,
-My name is Biprojit Giri. It is my first day of Summer Project which is assigned by my college.  
-In my first day of summer work, I learned how to download and install NodeJs in windows 11.
