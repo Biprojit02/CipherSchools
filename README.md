@@ -1,2 +1,2 @@
-# CipherschoolLPU
+# CipherSchools
 #SummerProject
