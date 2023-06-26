@@ -1,5 +1,5 @@
 In 4th lecture I've learend about some HTML tags.
-This html tags are--
+This html tags are---
 1. body
 2. heading
 3. paragraph
