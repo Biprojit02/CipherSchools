@@ -1,0 +1,133 @@
+In lecture Five, I have leared about different types CSS selectors...
+1. Simple Selector
+2. COMBINATOR SELECTOR
+3. Pseudo-element selector
+4. Pseudo-class selector
+5. ADJUCENT SELECTOR
+
+here is the HTML code that I've practiced after lecture...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1>Welcome to my site</h1> -->
+    <!-- <p>This is <span style="color: rgb(95, 24, 161);"><strong>Biprojit</strong></span><br>
+    lives in India</p> -->
+
+    <!-- <p id="abc">This is <span style="color: rgb(95, 24, 161);"><strong>Biprojit</strong></span><br>
+        lives in India</p> -->
+
+    <!-- <p class="abcd">This is <span style="color: rgb(95, 24, 161);"><strong>Biprojit</strong></span><br>
+    lives in India</p> -->
+
+
+    <!-- <div>
+    <h1>Welcome to my site</h1>
+
+    <p>This is <span style="color: rgb(95, 24, 161);"><strong>Biprojit</strong></span><br>
+    lives in India</p>
+
+    <section>
+        <p class="abcd">This is <span style="color: rgb(95, 24, 161);"><strong>Biprojit</strong></span><br>
+            lives in India</p>
+    </section>
+    </div> -->
+
+    <!-- /* ADJUCENT SELECTOR */ -->
+    <!-- <div>
+        <p>para 1</p>
+        <p>para 2</p>
+    </div>
+    <p>para 3</p>
+    <p>para 4</p> -->
+
+    <!-- /* Genral sibling selector */ -->
+    <div>
+        <p>para 1</p>
+        <p>para 2</p>
+    </div>
+    <p>para 3</p>
+    <p>para 4</p>
+
+    <a href="https://google.com">Google</a>
+    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+    <hr>
+</body>
+</html>
+
+here is the CSS code that I've practiced after lecture...
+/****** SIMPLE SELECTOR *******/
+/* body{
+    background-color: rgb(35, 194, 141);
+    color: white;
+} */
+/* p{
+    text-align: center;
+    margin: 40px 0 0 0;
+} */
+
+/* ID BASED SELECTORS */
+/* #abc{
+    text-align: center;
+} */
+
+/* CLASS BASED SELECTORS */
+/* .abcd{
+    text-align: center;
+} */
+
+/* UNIVERSEL SELECTORS*/
+/* 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+} */
+
+/* GROUP SELECTOR */
+/* h1,p,.abcd{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(100, 30, 30);
+} */
+
+
+/******* COMBINATOR SELECTOR *******/
+/* descendant selector */
+/* div p{
+    background-color: yellow;
+} */
+
+/* childe selector */
+/* div > p{
+    background-color: aqua;
+} */
+
+/* ADJUCENT SELECTOR */
+/* div + p{
+    background-color: yellow;
+} */
+
+/* Genral sibling selector */
+/* div ~ p{
+    background-color: yellow;
+} */
+
+/* Pseudo-class selector */
+/* div ~ p:hover{
+    background-color: blue;
+} */
+
+/* Pseudo-element selector */
+/* div ~ p::first-letter{
+    color: rgb(38, 194, 38);
+} */
+
+/* attribute selector */
+a[target]{
+    background-color: rgb(219, 136, 28);
+}
