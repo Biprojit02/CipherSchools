@@ -1,0 +1,102 @@
+In 6th lecture I learend about basic Javascript.
+
+Here is the code about that I have practice after lecture...
+// var x = 15;
+// {
+//     let x = 5;
+//     console.log(x);
+// }
+// console.log(x);
+
+// constant var
+/*var x = 15
+{
+    const x = 6;
+    console.log(x);
+    x=10;
+    console.log(x);
+}
+console.log(x);
+*/
+
+/*// ARROW function
+//(Normal function)
+// var x = function(x, y){
+//     return x+y;
+// };
+// console.log(x(7,3));
+
+//ARROW function
+// var x = (x, y)=> x+y;
+// console.log(x(7,3));
+
+const x = (x, y)=> x+y;
+console.log(x(7,3));*/
+
+// SPREAD OPERATOR
+/*const q1 = ["mon", "tue"];
+const q3 = ["wed", "thu"];
+const q2 = [ "fri", "sat"];
+const year = [...q1, ...q2, ...q3];
+console.log(year);*/
+
+/*const maxNumber = [2,78,100,-5,15];
+let maxValue = Math.max(...maxNumber);
+console.log(maxValue); */
+
+// FOR of LOOP
+/*const values = [2,78,100,-5,15];
+let sum = 0;
+for(let num of values){
+    sum = sum + num;
+}
+console.log(sum);*/
+
+/* const words = ["mon","tue","wed"];
+let text = " ";
+for(let ch of words){
+    text += ch + " ";
+}
+console.log(text);*/
+
+// JS MAP
+/*const fruits = new Map([["mango", 500], ["Apple",300], ["Banana", 100]]);
+console.log(fruits);
+console.log(fruits.get("Apple"));*/
+
+// JS SET
+/*const letter = new Set();
+letter.add("Guddu ");
+letter.add("Deb");
+letter.add("Nath");
+console.log(letter);*/
+
+// Classes
+/*class Car{
+    constructor(name, mfgyear){
+        this.name = name;
+        this.mfgyear = mfgyear;
+    }
+}
+
+const myCar1 = new Car("TATA",2000);
+const myCar2 = new Car("Toyota",2002);
+console.log(myCar1);
+console.log(myCar2);*/
+
+// JS Promise
+/*const myFunction = ()=>{
+    return new Promise((resolve, reject)=> {
+    setTimeout(()=>{
+        console.log("This is under promise");
+        resolve();
+    },2000);
+});
+};
+
+myFunction().then(()=>{
+    console.log("resolved");
+}).catch(()=>{
+    console.log("Rejected");
+})*/
+
