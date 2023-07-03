@@ -1,6 +1,7 @@
 In 6th lecture I learend about basic Javascript.
 
 Here is the code about that I have practice after lecture...
+
 // var x = 15;
 // {
 //     let x = 5;
@@ -100,3 +101,34 @@ myFunction().then(()=>{
     console.log("Rejected");
 })*/
 
+// Qunique Symbol 
+/*const person = {
+    firstName: "Biprojit",
+    lastName: "Giri",
+    age: 21,
+    skinColor: "Brown",
+}
+
+let id = Symbol("id");
+person[id] = 777;
+console.log(person);
+*/
+
+// Default Value 
+/*const addTwoNumber = (a, b = 5) => a+b;
+console.log(addTwoNumber(10));*/
+
+// Rest parameter
+/*const addNumber = (...args)=>{
+    console.log(args);
+};
+console.log(addNumber(10,2,22,15,25,40,50));*/
+
+const addNumber = (...args)=>{
+    let sum = 0;
+    for(let x of args){
+        sum+=x;
+    }
+    return sum;
+};
+console.log(addNumber(10,2,22,15,25,40,50));
