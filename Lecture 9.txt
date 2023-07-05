@@ -1,0 +1,84 @@
+In 9th lecture I have learned about Javascipt Events..
+here is code I have practiced after the lecture....
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>Welcome to my Page</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel labore unde architecto nisi, autem inventore suscipit minima vitae, perferendis omnis cum dolorem minus dicta voluptate ipsum beatae provident fugit odit.</p>
+
+    <Section>
+        <div>
+            <h2 onclick="changeEle(this)">Best place to visit in Tripura</h2>
+            <ul>
+                <li>Unakoti</li>
+                <li>Jampui</li>
+                <li>Matabari</li>
+                <li>Dombur</li>
+                <li>Nirmahal</li>
+            </ul>
+        </div>
+        </Section>
+
+    <section>
+        <div>
+            <h2>Best food in Tripura</h2>
+        <ul>
+            <li>Jilebi</li>
+            <li>Misti Doi</li>
+            <li>Elish</li>
+        </ul>
+        </div>
+    </section>
+
+    <div>
+        <button onclick="displayDate(this)">the time is: </button>
+        <p id="demo"></p>
+    </div> -->
+
+    <!-- ONCHANGE event -->
+
+    <!-- <form> -->
+        <input type="text" name="FirstName" id="firstname" onchange="uppercase()">
+    <!-- </form> -->
+
+    <!-- <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color: aqua; width: 120px; height: 20px; padding: 40px;">mouse on me</div> -->
+
+    <div onmousedown="mDown(this)" onmouseup="mUp(this)" style="background-color: blueviolet; width: 100px; height: 30px; padding: 10px;">Tiger on me</div>
+    <script>
+        function changeEle(id){
+            id.innerHTML='This is After clicked';
+        }
+
+        function displayDate(){
+            document.getElementById("demo").innerHTML = new Date();
+        }
+
+        function uppercase(){
+            const x = document.getElementById("firstname");
+            x.value = x.value.toUpperCase();
+        }
+
+        function mOver(obj){
+            obj.innerHTML = "Mouse over";
+        }
+        function mOut(obj){
+            obj.innerHTML = "Chala Gya";
+        }
+
+        function mDown(obj){
+            obj.style.backgroundColor = "red";
+            obj.innerHTML = "Thank you";
+        }
+        function mUp(obj){
+            obj.style.backgroundColor = "green";
+            obj.innerHTML = "Helpppp!"
+        }
+    </script>
+</body>
+</html>
