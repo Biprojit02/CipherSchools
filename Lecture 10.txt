@@ -1,0 +1,84 @@
+In 10th lecture I've learned about Java script OOPS..
+here is the code I've practive after watching the lecture..
+
+// let person = {
+//     firstname: "Biprojit",
+//     lastname: "Giri",
+
+//     getFullName: function(){
+//     return 'The name of person is  $(person.firstname) $(person.lastname)';
+//     },
+
+//     phoneNumber: {
+//         mobile: "12345",
+//         landLine: "67890",
+//     },
+// };
+
+// console.log(person.getFullName());
+// console.log(person.phoneNumber.mobile);
+
+//Objaect Constructor
+/*function person(firstname, lastname){
+    this.firstname = firstname;
+    this.lastname = lastname;
+};
+
+let person1 = new person("Biprojit", "Giri");
+let person2 = new person("Ankit", "Giri");
+
+console.log(person1);
+console.log(person2);*/
+
+//Object Create
+//using this method we can create new object
+/*const coder = {
+    isStudying: false,
+    printIntroduction: function(){
+        console.log(`my name is ${this.name}. Am i studying? ${this.isStudying}`);
+    },
+};
+
+const me = Object.create(coder);
+me.name = "biprojit giri";
+me.isStudying = true;
+me.printIntroduction();*/
+
+// Class 
+/*
+class vehicals{
+    constructor(name, maker, engine){
+        this.name = name;
+        this.maker = maker;
+        this.engine = engine;
+    }
+    getDetails(){
+        return `the details of the vehical is ${this.name} ${this.maker} ${this.engine}}`;
+    }
+}
+
+let v1 = new vehicals("xuv700", "mahindra", "2.2L");
+let v2 = new vehicals("Safari", "TATA", "2.0L");
+console.log(v1.getDetails());
+*/
+
+// Encapsulation//
+
+class Person{
+    constructor(name, id){
+        this.name = name;
+        this.id = id;
+    }
+
+    addAddress(newAddress){
+        this.address = newAddress;
+    }
+
+    getDetails(){
+        console.log(`My name is ${this.name} and my id is ${this.id} and address is ${this.address}`);
+    }
+}
+
+let person1 = new Person("Biprojit", 999);
+person1.addAddress("Tripura");
+person1.getDetails();
