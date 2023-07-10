@@ -1,0 +1,1 @@
+In 13th lecture...I've learend how to install NodeJS in terminal and how to install react Js in terminal.
