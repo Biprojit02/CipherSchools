@@ -1,0 +1,2 @@
+In 11th lecture I learend about MERN stack introduction..
+I also learend about how to connect Front end with Back end and Database..and display informatoin to users..
