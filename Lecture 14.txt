@@ -1,0 +1,2 @@
+In 14th lecture I've learned about React..
+How to install React in VS code terminal..and many more.
