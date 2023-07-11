@@ -1,0 +1,2 @@
+In 15th lecture I've learned about react folder...what is inside the react folder...what is the functions of that folder..
+like public, src, Json, Json-lock folders..
