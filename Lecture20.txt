@@ -1,0 +1,1 @@
+In 20th lecture I'created functional components.
