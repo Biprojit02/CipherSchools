@@ -1,0 +1,1 @@
+In 24th lecture I've learned about two way binding..
